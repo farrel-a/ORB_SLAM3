@@ -3,6 +3,7 @@ project(Sophus VERSION 1.1.0)
 
 include(CMakePackageConfigHelpers)
 include(GNUInstallDirs)
+add_definitions(-w)
 
 # Release by default
 # Turn on Debug with "-DCMAKE_BUILD_TYPE=Debug"
